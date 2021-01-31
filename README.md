@@ -33,3 +33,23 @@ open http://localhost:8000/
 ```
 
 To stop the server, press `Ctrl + C`.
+
+## Changelog
+
+### Bug Fixes
+
+- Decrease `ship` and `particle` friction so they can move
+- Improve text readability by giving it a stroke and putting it in front of the layers
+
+### Features
+
+- Render the game full screen
+- Generate asteroids based on screen size
+- Destroy the ship on asteroid collision
+- Improve bounding box collision detection
+- Improve ship speed
+- Randomize the speed of sprites (asteroids and particles)
+
+### Chore
+
+- Refactor to local scope so globals aren't polluted
