@@ -81,16 +81,16 @@ new p5(function (sketch) {
 
     for (var i = 0; i < sketch.allSprites.length; i++) {
       var s = sketch.allSprites[i];
+
       if (s.position.x < -MARGIN) {
         s.position.x = sketch.width + MARGIN;
-      }
-      if (s.position.x > sketch.width + MARGIN) {
+      } else if (s.position.x > sketch.width + MARGIN) {
         s.position.x = -MARGIN;
       }
+
       if (s.position.y < -MARGIN) {
         s.position.y = sketch.height + MARGIN;
-      }
-      if (s.position.y > sketch.height + MARGIN) {
+      } else if (s.position.y > sketch.height + MARGIN) {
         s.position.y = -MARGIN;
       }
     }
@@ -101,9 +101,11 @@ new p5(function (sketch) {
     if (sketch.keyDown(sketch.LEFT_ARROW)) {
       ship.rotation -= 4;
     }
+
     if (sketch.keyDown(sketch.RIGHT_ARROW)) {
       ship.rotation += 4;
     }
+
     if (sketch.keyDown(sketch.UP_ARROW)) {
       ship.addSpeed(0.5, ship.rotation);
       ship.changeAnimation(SHIP_THRUST);
