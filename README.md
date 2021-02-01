@@ -49,6 +49,7 @@ To stop the server, press `Ctrl + C`.
 - Improve bounding box collision detection
 - Improve ship speed
 - Randomize the speed of sprites (asteroids and particles)
+- Control ship using arrow keys or WAD; fire bullet with space
 
 ### Chore
 
