@@ -98,15 +98,15 @@ new p5(function (sketch) {
     asteroids.overlap(bullets, hitAsteroid);
     asteroids.overlap(ship, hitAsteroid);
 
-    if (sketch.keyDown(sketch.LEFT_ARROW)) {
+    if (sketch.keyDown(sketch.LEFT_ARROW) || sketch.keyDown("A")) {
       ship.rotation -= 4;
     }
 
-    if (sketch.keyDown(sketch.RIGHT_ARROW)) {
+    if (sketch.keyDown(sketch.RIGHT_ARROW) || sketch.keyDown("D")) {
       ship.rotation += 4;
     }
 
-    if (sketch.keyDown(sketch.UP_ARROW)) {
+    if (sketch.keyDown(sketch.UP_ARROW) || sketch.keyDown("W")) {
       ship.addSpeed(0.5, ship.rotation);
       ship.changeAnimation(SHIP_THRUST);
     } else {
