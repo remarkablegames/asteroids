@@ -111,7 +111,7 @@ new p5(function (sketch) {
       ship.changeAnimation(SHIP_NORMAL);
     }
 
-    if (sketch.keyWentDown(SPACE)) {
+    if (!ship.removed && sketch.keyWentDown(SPACE)) {
       var bullet = sketch.createSprite(ship.position.x, ship.position.y);
       bullet.addImage(bulletImage);
       bullet.setSpeed(10 + ship.getSpeed(), ship.rotation);
