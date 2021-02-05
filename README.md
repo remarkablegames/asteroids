@@ -3,13 +3,17 @@
 [![Run on Repl.it](https://repl.it/badge/github/remarkablegames/asteroids)](https://repl.it/github/remarkablegames/asteroids)
 ![GitHub last commit](https://img.shields.io/github/last-commit/remarkablegames/asteroids)
 
-[Asteroids game](https://remarkablegames.org/asteroids/) from [p5.play examples](https://molleindustria.github.io/p5.play/examples/index.html?fileName=asteroids.js). See [Repl.it](https://repl.it/talk/share/Asteroids/118514).
+[Asteroids game](https://remarkablegames.org/asteroids/) from [p5.play examples](https://molleindustria.github.io/p5.play/examples/index.html?fileName=asteroids.js). See [Repl.it](https://repl.it/talk/share/Asteroids/118514) and [blog post](https://remarkablegames.org/posts/asteroids/).
 
 Built with:
 
 - HTML/CSS/JS
 - [p5.js](https://p5js.org/)
 - [p5.play](https://molleindustria.github.io/p5.play/)
+
+<p align="center">
+  <img src="https://remarkablegames.org/assets/images/2021/2021-01-31-asteroids.png" alt="Asteroids" width="500">
+</p>
 
 ## Run
 
