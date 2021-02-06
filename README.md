@@ -12,7 +12,7 @@ Built with:
 - [p5.play](https://molleindustria.github.io/p5.play/)
 
 <p align="center">
-  <img src="https://remarkablegames.org/assets/images/2021/2021-01-31-asteroids.png" alt="Asteroids" width="500">
+  <img src="https://remarkablegames.org/asteroids/screenshot.png" alt="Asteroids screenshot" width="500">
 </p>
 
 ## Run
